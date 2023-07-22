@@ -95,20 +95,85 @@
 
 .container-row-reverse {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
 
     /* indiferente */
-    background-color: #6ebb64;
+    background-color: #2f312f;
     padding: 16px;
     height: 500px;
 }
 
-.container-color-reverse {
+.container-column-reverse {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse ;
 
     /* indiferente */
-    background-color: #6ebb64;
+    background-color: #57281c;
     padding: 16px;
     height: 500px;
+}
+
+.container-justify-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* indiferente */
+    background-color: #465a6b;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-star {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    /* indiferente */
+    background-color: #0e2f4b;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-justify-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    /* indiferente */
+    background-color: #6f978d;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-justify-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /* indiferente */
+    background-color: #7a70a5;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-justify-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /* indiferente */
+    background-color: #3f393b;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-justify-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    /* indiferente */
+    background-color: #241646;
+    padding: 16px;
+    height: 500px;   
 }
