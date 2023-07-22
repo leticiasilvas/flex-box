@@ -53,6 +53,37 @@
     border-radius: 16px;
 }
 
+.bloco-1 {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2 {
+    background-color: lightpink;
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3 {
+    background-color: red;
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+
+/* flex-direction: define a direção do eixo principal */
 .container-row {
     display: flex;
     flex-direction: row;
@@ -177,3 +208,40 @@
     padding: 16px;
     height: 500px;   
 }
+
+.container-alignitems-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* indiferente */
+    background-color: #b66184;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items:flex-end;
+
+    /* indiferente */
+    background-color: #26273d;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items:flex-start;
+
+    /* indiferente */
+    background-color: #7bc2a4;
+    padding: 16px;
+    height: 500px;
+}
+
