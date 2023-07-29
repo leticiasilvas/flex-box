@@ -245,3 +245,101 @@
     height: 500px;
 }
 
+
+
+.bloco-1-sem-altura {
+    background-color: rgb(25, 47, 54);
+    /* height: 150px; - Só vai alterar quando a altura não estiver definida . altura */
+   
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2-sem-altura {
+    background-color: rgb(88, 78, 79);
+    /* height: 150px; - Só vai alterar quando a altura não estiver definida . altura */
+   
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-sem-altura {
+    background-color: rgb(199, 160, 160);
+       /* height: 150px; - Só vai alterar quando a altura não estiver definida . altura */
+   
+    width: 150px; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container-alignitems-stretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items: stretch;
+
+    /* indiferente */
+    background-color: #6349a8;
+    padding: 16px;
+    height: 500px;
+}
+
+.bloco-1-fontes-diferente {
+    background-color: rgb(115, 91, 153);
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 76px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2-fontes-diferente {
+    background-color: rgb(115, 91, 153);
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-fontes-diferente {
+    background-color: rgb(115, 91, 153);
+    height: 150px;
+    width: 150px; 
+    text-align: center;
+    font-size: 116px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container-alignitems-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items: baseline;
+
+    /* indiferente */
+    background-color: #44b986;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items: baseline;
+
+    /* indiferente */
+    background-color: #44b986;
+    padding: 16px;
+    height: 500px;
+}
